@@ -53,7 +53,7 @@ class HomeController extends Controller
     }
     public function reports(Company $company)
     {
-
+        dd($company);
         {
             $data = [
                 'company' =>$company

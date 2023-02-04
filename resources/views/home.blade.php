@@ -12,7 +12,9 @@
 
     {{--    </div>--}}
     {{--</main>--}}
-<div class="flex-wrap flex  p-5 m-5 justify-center">
+
+
+    <div class="flex-wrap flex  p-5 m-5 justify-center">
     @foreach($companies as $company)
     <a href="{{route('company',$company)}}"
        class="m-5 flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
